@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <title>tic tac toe</title>
+</head>
+<body>
+  <body onload="reset()">
+    <section>
+     <h1 class="gametitle" >tic tac toe</h1>
+     <div class="gamecontainer">
+     <button data-cell-index="0" id="0" class="cell" onclick="clicked(0)" ></button>
+     <button data-cell-index="1" id="1" class="cell" onclick="clicked(1)" ></button>
+     <button data-cell-index="2" id="2" class="cell" onclick="clicked(2)" ></button>
+     <button data-cell-index="3" id="3" class="cell" onclick="clicked(3)" ></button>
+     <button data-cell-index="4" id="4" class="cell" onclick="clicked(4)" ></button>
+     <button data-cell-index="5" id="5" class="cell" onclick="clicked(5)" ></button>
+     <button data-cell-index="6" id="6" class="cell" onclick="clicked(6)" ></button>
+     <button data-cell-index="7" id="7" class="cell" onclick="clicked(7)" ></button>
+     <button data-cell-index="8" id="8" class="cell" onclick="clicked(8)" ></button>
+
+     </div>
+     <h2 class="gamestatus"></h2>
+     <button class="gamestart" onclick="reset()" >reset game</button>
+    </section>
+  
+</body>
+</html>
